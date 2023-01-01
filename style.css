@@ -91,7 +91,7 @@ button {
 .mid-content ul {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:flex-start;
     flex-wrap:wrap;
     gap: 24px;
     padding: 48px;
@@ -100,8 +100,6 @@ button {
 
 .mid-content li {
     text-align: center;
-    border:#3882f6 solid 8px;
-    border-radius: 12px;
     font-weight: bold;
     max-width:min-content;
 }
@@ -110,4 +108,22 @@ button {
     width: fit-content;
     max-height: 250px;
     min-width: 0;
+    border: #3882f6 solid 8px;
+    border-radius: 12px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 48px;
+}
+
+.quote-section p {
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-section h2 {
+    text-align: right;
 }
