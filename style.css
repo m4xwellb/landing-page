@@ -127,3 +127,23 @@ button {
 .quote-section h2 {
     text-align: right;
 }
+
+.container {
+    background-color: #3882f6;
+    margin: 48px;
+    border-radius: 24px;
+    padding: 24px 48px 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .words {
+    color:#f9faf8;
+}
+
+.container button {
+    border:#f9faf8 solid 2px;
+    height:min-content;
+    width: 15%;
+}
